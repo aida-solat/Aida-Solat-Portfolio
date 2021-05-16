@@ -688,11 +688,11 @@ img {
   }
 }
 .page-top .image__reile {
-  background: url(../img/reile.jpg) no-repeat center;
+  background: url(../img/works.png) no-repeat right;
   background-size: cover;
 }
 .page-top .image__about {
-  background: url(../img/about.jpg) no-repeat center;
+  background: url(../img/woman.jpg) no-repeat center;
   background-size: cover;
 }
 .text {
@@ -704,7 +704,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   padding-left: 138px;
-  margin-top: 3.4rem;
+  margin-top: 20px;
 }
 @media screen and (max-width: 800px) {
   .text {
@@ -781,7 +781,7 @@ img {
   }
 }
 .container {
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 @media screen and (max-width: 420px) {
   .container {
