@@ -1369,15 +1369,15 @@ header .global-nav__sns a:last-child {
   background: #072142;
 }
 .image--works {
-  background: url(../img/works.png) no-repeat right;
+  background: url(../img/works-home.png) no-repeat right;
   background-size: cover;
 }
 .image--about {
-  background: url(../img/Creative_Business_Card.jpg) no-repeat center;
+  background: url(../img/about-me-home.png) no-repeat center;
   background-size: cover;
 }
 .image--contact {
-  background: url(../img/woman.jpg) no-repeat center;
+  background: url(../img/Get-in-touch.png) no-repeat center;
   background-size: cover;
 }
 .image .page-num {
