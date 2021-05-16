@@ -687,10 +687,10 @@ img {
     top: auto;
   }
 }
-.page-top .image__reile {
+/* .page-top .image__reile {
   background: url(../img/works.png) no-repeat right;
   background-size: cover;
-}
+} */
 /* .page-top .image__about {
   background: url(../img/about-me.png) no-repeat center;
   background-size: cover;
