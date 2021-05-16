@@ -691,10 +691,10 @@ img {
   background: url(../img/works.png) no-repeat right;
   background-size: cover;
 }
-.page-top .image__about {
-  background: url(../img/woman.jpg) no-repeat center;
+/* .page-top .image__about {
+  background: url(../img/about-me.png) no-repeat center;
   background-size: cover;
-}
+} */
 .text {
   position: relative;
   display: -webkit-box;
