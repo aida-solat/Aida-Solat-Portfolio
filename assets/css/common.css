@@ -313,6 +313,7 @@ img {
 }
 .title .border span:first-child {
   margin-bottom: 1.4rem;
+  margin-top: 20px;
 }
 @media screen and (max-width: 420px) {
   .title .border span:first-child {
