@@ -396,6 +396,7 @@ img {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  padding-left: 2rem;
 }
 @media screen and (max-width: 800px) {
   .title li a {
