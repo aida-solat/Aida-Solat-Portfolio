@@ -1028,7 +1028,7 @@ header .global-nav__list a {
 }
 @media screen and (max-width: 420px) {
   header .global-nav__list a {
-    font-size: 3.8rem;
+    font-size: 3rem;
     text-shadow: 0 3px 20px rgba(2, 11, 22, 0.2);
   }
 }
@@ -1066,7 +1066,7 @@ header .global-nav__sns {
   }
 }
 header .global-nav__sns a {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   margin-right: 2.4rem;
   -webkit-transform: translate3d(0, 150%, 0);
   transform: translate3d(0, 150%, 0);
