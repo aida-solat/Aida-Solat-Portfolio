@@ -168,7 +168,7 @@ body {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  color: #828c96;
+  color: rgb(199, 201, 214);
   overflow-x: hidden;
 }
 @media screen and (max-width: 420px) {
@@ -177,9 +177,7 @@ body {
   }
 }
 textarea {
-  font-family: "futura_r", "Helvetica Neue", "Helvetica", "Arial", "Avenir",
-    "Hiragino Sans", 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック",
-    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1,
 h2,
@@ -245,11 +243,13 @@ img {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   z-index: 200;
-  margin-left: 11%;
+  margin-left: 15%;
+  margin-top: 10%;
 }
 @media screen and (max-width: 800px) {
   .title {
-    margin-left: 40px;
+    margin-left: 15%;
+    margin-top: 10%;
   }
 }
 @media screen and (max-width: 420px) {
@@ -260,6 +260,8 @@ img {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     bottom: 8rem;
+    margin-left: 15%;
+    margin-top: 10%;
   }
 }
 @media screen and (max-width: 420px) {
@@ -267,12 +269,18 @@ img {
     margin: 0 13%;
   }
 }
+
+.title .typo{
+  margin-top: 7rem;
+}
+
+
 .title__text {
-  font-size: 7rem;
+  font-size: 3.8rem;
   line-height: 1.5;
   letter-spacing: 0.1em;
   margin-bottom: 1.6rem;
-  font-family: "futura_m";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: normal;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
   margin-left: 2rem;
@@ -280,7 +288,7 @@ img {
 }
 @media screen and (max-width: 800px) {
   .title__text {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 420px) {
@@ -353,6 +361,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.1em;
   margin-left: 2rem;
+  
 }
 @media screen and (max-width: 800px) {
   .title__lead {
@@ -365,6 +374,28 @@ img {
     font-size: 1.2rem;
   }
 }
+
+.title .speak{
+  font-size: 3.8rem;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 800px) {
+  .title .speak {
+    font-size: 2.4rem;
+    line-height: 1.4;
+    margin-left: 20%;
+    margin-top: 20%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .title .speak {
+    font-size: 1.2rem;
+    margin-left: 50%;
+  }
+}
+
 .title li {
   margin-bottom: 1.6rem;
 }
@@ -523,7 +554,7 @@ img {
   font-size: 3rem;
   color: #072142;
   letter-spacing: 0.2em;
-  font-family: "futura_m";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   /* margin-right: 1.2rem; */
   /* padding-top: 1.6rem; */
   /* margin-left: 5rem;
@@ -559,7 +590,7 @@ img {
   position: relative;
   padding-left: 6.2rem;
   padding-right: 1.2rem;
-  font-family: "Abril Fatface";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.1;
 }
 .heading-num:after {
@@ -591,7 +622,7 @@ img {
   text-align: center;
   letter-spacing: 0.2em;
   line-height: 1.2;
-  font-family: "futura_de";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   word-break: break-all;
 }
 @media screen and (max-width: 420px) {
@@ -605,7 +636,7 @@ img {
   color: #072142;
   letter-spacing: 0.2em;
   line-height: 1.2;
-  font-family: "futura_de";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @media screen and (max-width: 420px) {
   .small-title {
@@ -627,10 +658,10 @@ img {
     margin-bottom: 12rem;
   }
 }
-.back-arrow {
+.back-arrow{
   position: fixed;
-  top: 120px;
-  left: 40px;
+  top: 200px;
+  left: 60px;
   display: block;
   width: 64px;
   -webkit-transition: 0.5s;
@@ -640,10 +671,18 @@ img {
   color: #fff;
   z-index: 300;
 }
+
+@media screen and (max-width: 800px) {
+  .back-arrow {
+    width: 32px;
+    top: 25%;
+    left: 6.25%;
+  }
+}
 @media screen and (max-width: 420px) {
   .back-arrow {
     width: 32px;
-    top: 60px;
+    top: 10%;
     left: 6.25%;
   }
 }
@@ -829,7 +868,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 40px 0;
+  padding: 20px 40px 0;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -839,7 +878,6 @@ header {
   justify-content: space-between;
   z-index: 1000;
   background-color: rgb(7, 33, 66, 30%);
-  padding-bottom: 30px;
 }
 @media screen and (max-width: 420px) {
   header {
@@ -868,17 +906,21 @@ header .name {
   position: relative;
   z-index: 1000;
 }
-@media screen and (max-width: 420px) {
-  header .name {
-    font-size: 1.6rem;
-  }
+
+header .aida-modified {
+  width: 80px;
+  position: relative;
+  margin-bottom: 15px;
 }
+
 header .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  align-items: center;
 }
+
 header .icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -906,6 +948,8 @@ header .menuIcon {
   width: 30px;
   height: 15px;
   cursor: pointer;
+  margin-top: 5px;
+  margin-right: 50px;
 }
 @media screen and (max-width: 420px) {
   header .menuIcon {
@@ -1161,6 +1205,7 @@ header .global-nav__sns a:last-child {
   width: 40px;
   left: 40px;
   overflow: hidden;
+ 
 }
 @media screen and (max-width: 1250px) {
   #fp-nav {
@@ -1205,7 +1250,7 @@ header .global-nav__sns a:last-child {
 #fp-nav ul li a {
   width: 24px;
   height: 100%;
-  background: #fff;
+  background: rgb(199, 201, 214);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -1370,6 +1415,7 @@ header .global-nav__sns a:last-child {
   height: 100%;
   overflow: hidden;
   position: relative;
+  
 }
 .image__cover {
   position: absolute;
@@ -1385,7 +1431,11 @@ header .global-nav__sns a:last-child {
   background: #072142;
 }
 .image--works {
-  background: url(../img/works-home.png) no-repeat right;
+  background: url(../img/react-spring-home.png) no-repeat right;
+  background-size: cover;
+}
+.image--react--spring {
+  background: url(../img/react-spring-home.png) no-repeat right;
   background-size: cover;
 }
 .image--about {
