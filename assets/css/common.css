@@ -239,7 +239,6 @@ img {
   color: #fff;
   position: absolute;
   overflow: hidden;
-  top: 50%;
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   z-index: 200;
@@ -249,7 +248,7 @@ img {
 @media screen and (max-width: 800px) {
   .title {
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 70%;
   }
 }
 @media screen and (max-width: 420px) {
@@ -270,9 +269,7 @@ img {
   }
 }
 
-.title .typo{
-  margin-top: 7rem;
-}
+
 
 
 .title__text {
@@ -305,6 +302,16 @@ img {
     margin-bottom: 0.1rem;
   }
 }
+
+
+@media screen and (max-width: 800px){
+  .title .typo{
+    margin-bottom: 30%;
+
+  }
+}
+
+
 .title .border {
   display: inline-block;
   margin-bottom: 3.2rem;
@@ -376,25 +383,31 @@ img {
 }
 
 .title .speak{
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   letter-spacing: 0.1em;
   line-height: 1.5;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .title .speak {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     line-height: 1.4;
-    margin-left: 20%;
-    margin-top: 20%;
+    margin-left: 10%;
+    
+ 
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
   .title .speak {
-    font-size: 1.2rem;
-    margin-left: 50%;
+    font-size: 2.2rem;
+    margin-left: 5%;
   }
 }
+
+
+
+
+
 
 .title li {
   margin-bottom: 1.6rem;
