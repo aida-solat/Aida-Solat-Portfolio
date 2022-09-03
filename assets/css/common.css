@@ -259,8 +259,8 @@ img {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     bottom: 8rem;
-    margin-left: 15%;
-    margin-top: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
   }
 }
 @media screen and (max-width: 420px) {
